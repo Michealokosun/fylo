@@ -1,0 +1,68 @@
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding: 10px;
+}
+
+
+.row{
+    max-width: 900px;
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 5%;
+    padding-bottom: 70px;
+    color: rgb(212, 209, 209);
+    font-family: "Open Sans";
+    font-size: .85rem;
+
+}
+
+.col_1 img{
+    max-width: 100px;
+    width: 100%;
+}
+
+.col_2{
+    display: flex;
+    margin-top: 20px;
+    gap: 90px;
+ 
+}
+
+.col_item_1{
+    display: flex;
+    gap: 10px;
+    max-width: 250px;
+    width: 100%;
+}
+.col_item_2 .phone, 
+.col_item_2 .email{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    max-width: 230px;
+    width: 100%;
+}
+
+.col_item_3 ul, .col_item_4 ul{
+    padding: 0;
+
+}
+.col_item_3 ul li, .col_item_4 ul li{
+list-style-type: none;
+padding: 6px 0;
+}
+
+
+
+
+
+@media only screen and (max-width:40rem){
+    .row{
+        padding: 20px;
+    }
+    .col_2{
+        flex-direction: column;
+        row-gap: 50px;
+      
+    }
+}

@@ -1,0 +1,66 @@
+ .tess{
+    padding: 20px;
+    background-color: hsl(218, 28%, 13%);
+
+
+}
+
+
+
+section .tess__items{
+
+    display:  grid;
+    max-width: 1000px;
+    width: 100%;
+    background-position: bottom;
+    grid-template-rows: auto;
+    margin-inline: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    color: rgb(211, 208, 208);
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: .85rem;
+    line-height: 1.6;
+    letter-spacing: .2px;
+    position: relative;
+}
+
+section .tess__items .quote__img{
+    position: absolute;
+    top: -37px;
+}
+section .tess__item{
+    background-color: hsl(219, 30%, 18%);
+    padding:  20px;
+    z-index: 1;
+   
+}
+
+section .tess__items .tess__item .profile{
+    display: flex;
+    padding: 20px 0;
+    gap: 10px;
+   
+    
+}
+
+section .tess__items .tess__item .profile .profile__img {
+        flex-basis: 40px;
+}
+section .tess__items .tess__item .profile .profile__img img{
+        width: 100%;
+        max-width: 100px;
+        border-radius: 100px;
+}
+
+
+
+@media only screen and (max-width:40rem){
+    section .tess__items{
+        grid-template-columns: 1fr;
+        margin: 40% 0;
+    }
+}
+

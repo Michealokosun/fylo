@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color:  hsl(217, 27%, 19%);
+
+}
+
+.container{
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+
+@media only screen and (max-width: 40rem) {
+    .container{
+        max-width: 375px;
+        width: 100%;
+    }
+    
 }

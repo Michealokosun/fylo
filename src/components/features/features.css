@@ -1,0 +1,40 @@
+section{
+    background-color: hsl(218, 28%, 13%);
+}
+
+
+section .feature{
+    max-width: 900px;
+    width: 100%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px 50px;
+    padding: 20px;
+}
+
+section .feature .items h1{
+    font-family: Raleway;
+    color: rgb(227, 228, 227);
+    margin: 10px 0;
+    font-weight: 700;
+}
+section .feature .items p{
+    font-family: "Open Sans";
+    line-height: 1.4;
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgb(203, 206, 203);
+    margin: 10px 0;
+}
+
+@media only screen and (max-width:40rem){
+    section .feature{
+        grid-template-columns: 1fr;
+        row-gap: 60px;
+    }
+
+}

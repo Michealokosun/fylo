@@ -1,0 +1,82 @@
+
+header{
+   
+    background: url("../../images/bg-curvy-desktop.svg") no-repeat;
+
+    background-color:  hsl(217, 27%, 19%); 
+    background-position: center;
+    background-position-y: bottom;
+    
+
+}
+.hero{
+    max-width: 90%;
+    margin-inline: auto;
+    text-align: center;
+    padding: 30px 0;
+
+    
+}
+
+
+header img{
+    max-width: 600px;
+    width: 100%;
+}
+
+
+header .col-2{
+    margin: 10px 0;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+header .col-2 h1{
+    font-family: Raleway;
+    color: white;
+    font-weight: 700;
+    line-height: 1.7;
+}
+header .col-2 p{
+    font-family: open-sans ;
+    color: white;
+    padding: 15px 0;
+    font-weight: 400;
+    line-height: 1.7;
+    color: rgb(221, 220, 220)
+}
+
+header .col-2 button{
+    background: linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+    font-family: open-sans, Raleway;
+        outline: none;
+        border: none;
+        padding: 14px 70px;
+        margin-top: 15px;
+        font-weight: 400;
+        border-radius: 100px;
+}
+
+
+@media only screen and (max-width: 40rem){
+    header{
+        background: url("../../images/bg-curvy-mobile.svg") no-repeat;
+        background-position-y: bottom;
+        background-position-x: center;
+        background-size: 262% 65%;
+    }
+    header .col-2 h1{
+        font-size: 1.7rem;
+        line-height: 1.5;
+     
+    }
+    header .col-2 p{
+       font-size: 1rem;
+    }
+}
+
+
+
+
+
